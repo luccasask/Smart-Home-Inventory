@@ -1,0 +1,29 @@
+HEMREGISTRET - TESTVERSION 0.2
+
+STARTA
+Dubbelklicka på "Starta Hemregistret.cmd".
+Java ingår. Ingen installation eller internetanslutning behövs.
+Om du använder ZIP-filen: packa upp hela filen först.
+Behåll mapparna app och runtime tillsammans med startfilen.
+
+PROVA
+1. Startsidan visar ett centrerat sökfält och en menyknapp.
+2. Skriv ett namn och sök med Enter eller sökknappen.
+3. För att lägga till: skriv ett namn och klicka på + i sökfältet.
+   Namnet fylls i i formuläret. Välj typ och placering och klicka på Spara.
+4. Öppna Meny för att bläddra bland alla föremål i hierarkin.
+5. Markera ett föremål och välj Redigera / flytta för att ändra det.
+6. Stäng programmet och öppna det igen. Dina föremål finns kvar.
+
+SPARADE UPPGIFTER
+Ändringar sparas när du klickar på Spara.
+Databasen finns i %LOCALAPPDATA%\SmartHomeInventory\inventory.db.
+Du kan flytta programmappen utan att inventariet försvinner.
+För en manuell säkerhetskopia: stäng programmet och kopiera databasfilen.
+
+I DEN HÄR VERSIONEN
+Platser, föremål, obegränsad hierarki, sökning på namn/plats/beskrivning,
+redigering, flytt och kontrollerad borttagning.
+En behållare med innehåll kan inte tas bort innan innehållet har flyttats.
+Sökning och manuell bläddring har separata vyer.
+Taggar, kategorier, bilder och AI kommer i senare etapper.
